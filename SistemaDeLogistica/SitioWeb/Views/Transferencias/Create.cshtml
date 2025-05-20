@@ -1,0 +1,27 @@
+﻿@model MovimientoHistorico
+@{
+    ViewData["Title"] = "Detalle de Transferencia";
+}
+<h2>@ViewData["Title"]</h2>
+<div>
+    <strong>ID:</strong> @Model.MovimientoHistoricoId<br />
+    <strong>Fecha:</strong> @Model.Fecha<br />
+    <strong>Usuario:</strong> @Model.Usuario.Nombre<br />
+    <strong>Origen:</strong> @Model.Origen.Nombre<br />
+    <strong>Destino:</strong> @Model.Destino.Nombre<br />
+</div>
+<h4>Detalles</h4>
+<table>
+    <thead>
+        <tr><th>Producto</th><th>Cantidad</th></tr>
+    </thead>
+    <tbody>
+        @foreach (var d in Model.Detalles)
+        {
+            <tr>
+                <td>@d.Producto.Nombre</td>
+                <td>@d.Cantidad</td>
+            </tr>
+        }
+    </tbody>
+</table>

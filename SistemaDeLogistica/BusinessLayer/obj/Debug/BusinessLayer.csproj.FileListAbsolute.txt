@@ -1,0 +1,16 @@
+C:\Users\nahue\source\repos\Parcial-SAP\SistemaDeLogistica\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\nahue\source\repos\Parcial-SAP\SistemaDeLogistica\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\nahue\source\repos\Parcial-SAP\SistemaDeLogistica\BusinessLayer\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\nahue\source\repos\Parcial-SAP\SistemaDeLogistica\BusinessLayer\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\nahue\source\repos\Parcial-SAP\SistemaDeLogistica\BusinessLayer\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\nahue\source\repos\Parcial-SAP\SistemaDeLogistica\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\nahue\source\repos\Parcial-SAP\SistemaDeLogistica\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\nahue\source\repos\Parcial-SAP\SistemaDeLogistica\BusinessLayer\obj\Debug\Business.EA331CBA.Up2Date
+C:\Users\nahue\source\repos\Parcial-SAP\SistemaDeLogistica\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\nahue\source\repos\Parcial-SAP\SistemaDeLogistica\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\Users\nahue\source\repos\Parcial-SAP\SistemaDeLogistica\BusinessLayer\bin\Debug\BusinessLayer.dll.config
+C:\Users\nahue\source\repos\Parcial-SAP\SistemaDeLogistica\BusinessLayer\bin\Debug\DomainModel.dll
+C:\Users\nahue\source\repos\Parcial-SAP\SistemaDeLogistica\BusinessLayer\bin\Debug\Repositorio.dll
+C:\Users\nahue\source\repos\Parcial-SAP\SistemaDeLogistica\BusinessLayer\bin\Debug\DomainModel.pdb
+C:\Users\nahue\source\repos\Parcial-SAP\SistemaDeLogistica\BusinessLayer\bin\Debug\Repositorio.pdb
+C:\Users\nahue\source\repos\Parcial-SAP\SistemaDeLogistica\BusinessLayer\bin\Debug\System.Threading.Tasks.Extensions.xml
