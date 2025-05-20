@@ -1,27 +1,106 @@
-﻿@model MovimientoHistorico
+﻿@* Views/Transferencias/Create.cshtml *@
+@using Microsoft.AspNetCore.Mvc.Rendering
+@using DomainModel.Entities
+@model BusinessLayer.DTOs.TransferRequest
+
 @{
-    ViewData["Title"] = "Detalle de Transferencia";
+    ViewData["Title"] = "Nueva Transferencia";
 }
-<h2>@ViewData["Title"]</h2>
-<div>
-    <strong>ID:</strong> @Model.MovimientoHistoricoId<br />
-    <strong>Fecha:</strong> @Model.Fecha<br />
-    <strong>Usuario:</strong> @Model.Usuario.Nombre<br />
-    <strong>Origen:</strong> @Model.Origen.Nombre<br />
-    <strong>Destino:</strong> @Model.Destino.Nombre<br />
-</div>
-<h4>Detalles</h4>
-<table>
-    <thead>
-        <tr><th>Producto</th><th>Cantidad</th></tr>
-    </thead>
-    <tbody>
-        @foreach (var d in Model.Detalles)
-        {
+
+<h2 class="mb-4">@ViewData["Title"]</h2>
+
+<form asp-action="Create" method="post" class="row g-3">
+    <div class="col-md-4">
+        <label asp-for="OrigenId" class="form-label">Origen</label>
+        <select asp-for="OrigenId"
+                class="form-select"
+                asp-items="@(new SelectList(ViewData["Ubicaciones"] as IEnumerable<Ubicacion>, "UbicacionId", "Nombre"))">
+            <option value="">-- Seleccione --</option>
+        </select>
+    </div>
+    <div class="col-md-4">
+        <label asp-for="DestinoId" class="form-label">Destino</label>
+        <select asp-for="DestinoId"
+                class="form-select"
+                asp-items="@(new SelectList(ViewData["Ubicaciones"] as IEnumerable<Ubicacion>, "UbicacionId", "Nombre"))">
+            <option value="">-- Seleccione --</option>
+        </select>
+    </div>
+    <div class="col-md-4">
+        <label asp-for="UsuarioId" class="form-label">Usuario</label>
+        <select asp-for="UsuarioId"
+                class="form-select"
+                asp-items="@(new SelectList(ViewData["Usuarios"] as IEnumerable<Usuario>, "UsuarioId", "Nombre"))">
+            <option value="">-- Seleccione --</option>
+        </select>
+    </div>
+
+    <h4 class="mt-4">Detalles</h4>
+    <table class="table table-bordered" id="detallesTable">
+        <thead class="table-light">
             <tr>
-                <td>@d.Producto.Nombre</td>
-                <td>@d.Cantidad</td>
+                <th>Producto</th>
+                <th>Cantidad</th>
+                <th></th>
             </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <select name="Detalles[0].ProductoId" class="form-select producto-select"></select>
+                </td>
+                <td>
+                    <input type="number" name="Detalles[0].Cantidad" class="form-control" min="1" value="1" />
+                </td>
+                <td>
+                    <button type="button" class="btn btn-danger btn-sm" onclick="removeRow(this)">–</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="col-12">
+        <button type="button" class="btn btn-secondary me-2" onclick="addRow()">Agregar detalle</button>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </div>
+</form>
+
+@section Scripts {
+    <script>
+        let productos = [];
+
+        // Cargar lista de productos desde la API
+        fetch('/api/productos')
+            .then(r => r.json())
+            .then(data => {
+                productos = data;
+                document.querySelectorAll('.producto-select').forEach(populate);
+            });
+
+        function populate(select) {
+            select.innerHTML = productos
+                .map(p => `<option value="${p.productoId}">${p.nombre}</option>`)
+                .join('');
         }
-    </tbody>
-</table>
+
+        function addRow() {
+            const tbody = document.querySelector('#detallesTable tbody');
+            const index = tbody.rows.length;
+            const row = tbody.rows[0].cloneNode(true);
+
+            row.querySelector('select').name = `Detalles[${index}].ProductoId`;
+            row.querySelector('input').name = `Detalles[${index}].Cantidad`;
+
+            tbody.appendChild(row);
+            populate(row.querySelector('select'));
+        }
+
+        function removeRow(btn) {
+            const row = btn.closest('tr');
+            const tbody = row.parentElement;
+            if (tbody.rows.length > 1) {
+                tbody.removeChild(row);
+            }
+        }
+    </script>
+}

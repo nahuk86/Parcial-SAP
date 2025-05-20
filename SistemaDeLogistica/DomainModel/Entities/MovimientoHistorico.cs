@@ -8,7 +8,7 @@ namespace DomainModel.Entities
 {
     public class MovimientoHistorico
     {
-        public int MovimientoHistoricoId { get; private set; }
+        public int MovimientoHistoricoId { get; set; }
         public DateTime Fecha { get; private set; }
         public Usuario Usuario { get; private set; }
         public Ubicacion Origen { get; private set; }

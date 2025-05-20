@@ -1,12 +1,479 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\nahue\\source\\repos\\Parcial-SAP\\SistemaDeLogistica\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3F0829DD-DB91-4EB8-9ACC-87320DF56954}|WebApi\\WebApi.csproj|c:\\users\\nahue\\source\\repos\\parcial-sap\\sistemadelogistica\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F0829DD-DB91-4EB8-9ACC-87320DF56954}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46CC3BDA-2857-4C9D-9657-41B97FE68ACA}|DomainModel\\DomainModel.csproj|c:\\users\\nahue\\source\\repos\\parcial-sap\\sistemadelogistica\\domainmodel\\interfaces\\iubicacionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46CC3BDA-2857-4C9D-9657-41B97FE68ACA}|DomainModel\\DomainModel.csproj|solutionrelative:domainmodel\\interfaces\\iubicacionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46CC3BDA-2857-4C9D-9657-41B97FE68ACA}|DomainModel\\DomainModel.csproj|c:\\users\\nahue\\source\\repos\\parcial-sap\\sistemadelogistica\\domainmodel\\interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46CC3BDA-2857-4C9D-9657-41B97FE68ACA}|DomainModel\\DomainModel.csproj|solutionrelative:domainmodel\\interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46CC3BDA-2857-4C9D-9657-41B97FE68ACA}|DomainModel\\DomainModel.csproj|c:\\users\\nahue\\source\\repos\\parcial-sap\\sistemadelogistica\\domainmodel\\interfaces\\iproductorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46CC3BDA-2857-4C9D-9657-41B97FE68ACA}|DomainModel\\DomainModel.csproj|solutionrelative:domainmodel\\interfaces\\iproductorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42E09B01-937E-49AE-AD24-21ADD898F757}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\nahue\\source\\repos\\parcial-sap\\sistemadelogistica\\businesslayer\\services\\transferenciaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42E09B01-937E-49AE-AD24-21ADD898F757}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\services\\transferenciaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42E09B01-937E-49AE-AD24-21ADD898F757}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\nahue\\source\\repos\\parcial-sap\\sistemadelogistica\\businesslayer\\interfaces\\itransferenciaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42E09B01-937E-49AE-AD24-21ADD898F757}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\interfaces\\itransferenciaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42E09B01-937E-49AE-AD24-21ADD898F757}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\nahue\\source\\repos\\parcial-sap\\sistemadelogistica\\businesslayer\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42E09B01-937E-49AE-AD24-21ADD898F757}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2836F25-705A-4125-A193-9B744C0EEEC4}|Repositorio\\Repositorio.csproj|c:\\users\\nahue\\source\\repos\\parcial-sap\\sistemadelogistica\\repositorio\\implementations\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2836F25-705A-4125-A193-9B744C0EEEC4}|Repositorio\\Repositorio.csproj|solutionrelative:repositorio\\implementations\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46CC3BDA-2857-4C9D-9657-41B97FE68ACA}|DomainModel\\DomainModel.csproj|c:\\users\\nahue\\source\\repos\\parcial-sap\\sistemadelogistica\\domainmodel\\entities\\movimientohistorico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46CC3BDA-2857-4C9D-9657-41B97FE68ACA}|DomainModel\\DomainModel.csproj|solutionrelative:domainmodel\\entities\\movimientohistorico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2836F25-705A-4125-A193-9B744C0EEEC4}|Repositorio\\Repositorio.csproj|c:\\users\\nahue\\source\\repos\\parcial-sap\\sistemadelogistica\\repositorio\\implementations\\movimientohistoricorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2836F25-705A-4125-A193-9B744C0EEEC4}|Repositorio\\Repositorio.csproj|solutionrelative:repositorio\\implementations\\movimientohistoricorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46CC3BDA-2857-4C9D-9657-41B97FE68ACA}|DomainModel\\DomainModel.csproj|c:\\users\\nahue\\source\\repos\\parcial-sap\\sistemadelogistica\\domainmodel\\interfaces\\imovimientohistoricorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46CC3BDA-2857-4C9D-9657-41B97FE68ACA}|DomainModel\\DomainModel.csproj|solutionrelative:domainmodel\\interfaces\\imovimientohistoricorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE0CCFAD-3F6F-44F9-AEAD-1C4CD8FD19E9}|SitioWeb\\SitioWeb.csproj|c:\\users\\nahue\\source\\repos\\parcial-sap\\sistemadelogistica\\sitioweb\\controllers\\transferenciascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE0CCFAD-3F6F-44F9-AEAD-1C4CD8FD19E9}|SitioWeb\\SitioWeb.csproj|solutionrelative:sitioweb\\controllers\\transferenciascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE0CCFAD-3F6F-44F9-AEAD-1C4CD8FD19E9}|SitioWeb\\SitioWeb.csproj|c:\\users\\nahue\\source\\repos\\parcial-sap\\sistemadelogistica\\sitioweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE0CCFAD-3F6F-44F9-AEAD-1C4CD8FD19E9}|SitioWeb\\SitioWeb.csproj|solutionrelative:sitioweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE0CCFAD-3F6F-44F9-AEAD-1C4CD8FD19E9}|SitioWeb\\SitioWeb.csproj|c:\\users\\nahue\\source\\repos\\parcial-sap\\sistemadelogistica\\sitioweb\\services\\transferenciaapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE0CCFAD-3F6F-44F9-AEAD-1C4CD8FD19E9}|SitioWeb\\SitioWeb.csproj|solutionrelative:sitioweb\\services\\transferenciaapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F0829DD-DB91-4EB8-9ACC-87320DF56954}|WebApi\\WebApi.csproj|c:\\users\\nahue\\source\\repos\\parcial-sap\\sistemadelogistica\\webapi\\controllers\\transferenciascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F0829DD-DB91-4EB8-9ACC-87320DF56954}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\transferenciascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F0829DD-DB91-4EB8-9ACC-87320DF56954}|WebApi\\WebApi.csproj|c:\\users\\nahue\\source\\repos\\parcial-sap\\sistemadelogistica\\webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3F0829DD-DB91-4EB8-9ACC-87320DF56954}|WebApi\\WebApi.csproj|solutionrelative:webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F0829DD-DB91-4EB8-9ACC-87320DF56954}|WebApi\\WebApi.csproj|c:\\users\\nahue\\source\\repos\\parcial-sap\\sistemadelogistica\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3F0829DD-DB91-4EB8-9ACC-87320DF56954}|WebApi\\WebApi.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F0829DD-DB91-4EB8-9ACC-87320DF56954}|WebApi\\WebApi.csproj|c:\\users\\nahue\\source\\repos\\parcial-sap\\sistemadelogistica\\webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3F0829DD-DB91-4EB8-9ACC-87320DF56954}|WebApi\\WebApi.csproj|solutionrelative:webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F0829DD-DB91-4EB8-9ACC-87320DF56954}|WebApi\\WebApi.csproj|c:\\users\\nahue\\source\\repos\\parcial-sap\\sistemadelogistica\\webapi\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F0829DD-DB91-4EB8-9ACC-87320DF56954}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE0CCFAD-3F6F-44F9-AEAD-1C4CD8FD19E9}|SitioWeb\\SitioWeb.csproj|c:\\users\\nahue\\source\\repos\\parcial-sap\\sistemadelogistica\\sitioweb\\views\\transferencias\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE0CCFAD-3F6F-44F9-AEAD-1C4CD8FD19E9}|SitioWeb\\SitioWeb.csproj|solutionrelative:sitioweb\\views\\transferencias\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE0CCFAD-3F6F-44F9-AEAD-1C4CD8FD19E9}|SitioWeb\\SitioWeb.csproj|c:\\users\\nahue\\source\\repos\\parcial-sap\\sistemadelogistica\\sitioweb\\views\\transferencias\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE0CCFAD-3F6F-44F9-AEAD-1C4CD8FD19E9}|SitioWeb\\SitioWeb.csproj|solutionrelative:sitioweb\\views\\transferencias\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE0CCFAD-3F6F-44F9-AEAD-1C4CD8FD19E9}|SitioWeb\\SitioWeb.csproj|c:\\users\\nahue\\source\\repos\\parcial-sap\\sistemadelogistica\\sitioweb\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{EE0CCFAD-3F6F-44F9-AEAD-1C4CD8FD19E9}|SitioWeb\\SitioWeb.csproj|solutionrelative:sitioweb\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE0CCFAD-3F6F-44F9-AEAD-1C4CD8FD19E9}|SitioWeb\\SitioWeb.csproj|c:\\users\\nahue\\source\\repos\\parcial-sap\\sistemadelogistica\\sitioweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE0CCFAD-3F6F-44F9-AEAD-1C4CD8FD19E9}|SitioWeb\\SitioWeb.csproj|solutionrelative:sitioweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2836F25-705A-4125-A193-9B744C0EEEC4}|Repositorio\\Repositorio.csproj|c:\\users\\nahue\\source\\repos\\parcial-sap\\sistemadelogistica\\repositorio\\implementations\\ubicacionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2836F25-705A-4125-A193-9B744C0EEEC4}|Repositorio\\Repositorio.csproj|solutionrelative:repositorio\\implementations\\ubicacionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2836F25-705A-4125-A193-9B744C0EEEC4}|Repositorio\\Repositorio.csproj|c:\\users\\nahue\\source\\repos\\parcial-sap\\sistemadelogistica\\repositorio\\implementations\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2836F25-705A-4125-A193-9B744C0EEEC4}|Repositorio\\Repositorio.csproj|solutionrelative:repositorio\\implementations\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46CC3BDA-2857-4C9D-9657-41B97FE68ACA}|DomainModel\\DomainModel.csproj|c:\\users\\nahue\\source\\repos\\parcial-sap\\sistemadelogistica\\domainmodel\\entities\\ubicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46CC3BDA-2857-4C9D-9657-41B97FE68ACA}|DomainModel\\DomainModel.csproj|solutionrelative:domainmodel\\entities\\ubicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46CC3BDA-2857-4C9D-9657-41B97FE68ACA}|DomainModel\\DomainModel.csproj|c:\\users\\nahue\\source\\repos\\parcial-sap\\sistemadelogistica\\domainmodel\\valueobjects\\direccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46CC3BDA-2857-4C9D-9657-41B97FE68ACA}|DomainModel\\DomainModel.csproj|solutionrelative:domainmodel\\valueobjects\\direccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IUbicacionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nahue\\source\\repos\\Parcial-SAP\\SistemaDeLogistica\\DomainModel\\Interfaces\\IUbicacionRepository.cs",
+              "RelativeDocumentMoniker": "DomainModel\\Interfaces\\IUbicacionRepository.cs",
+              "ToolTip": "C:\\Users\\nahue\\source\\repos\\Parcial-SAP\\SistemaDeLogistica\\DomainModel\\Interfaces\\IUbicacionRepository.cs",
+              "RelativeToolTip": "DomainModel\\Interfaces\\IUbicacionRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T16:04:59.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IUsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nahue\\source\\repos\\Parcial-SAP\\SistemaDeLogistica\\DomainModel\\Interfaces\\IUsuarioRepository.cs",
+              "RelativeDocumentMoniker": "DomainModel\\Interfaces\\IUsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\nahue\\source\\repos\\Parcial-SAP\\SistemaDeLogistica\\DomainModel\\Interfaces\\IUsuarioRepository.cs",
+              "RelativeToolTip": "DomainModel\\Interfaces\\IUsuarioRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T16:04:54.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IProductoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nahue\\source\\repos\\Parcial-SAP\\SistemaDeLogistica\\DomainModel\\Interfaces\\IProductoRepository.cs",
+              "RelativeDocumentMoniker": "DomainModel\\Interfaces\\IProductoRepository.cs",
+              "ToolTip": "C:\\Users\\nahue\\source\\repos\\Parcial-SAP\\SistemaDeLogistica\\DomainModel\\Interfaces\\IProductoRepository.cs",
+              "RelativeToolTip": "DomainModel\\Interfaces\\IProductoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T16:04:42.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nahue\\source\\repos\\Parcial-SAP\\SistemaDeLogistica\\Repositorio\\Implementations\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "Repositorio\\Implementations\\UsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\nahue\\source\\repos\\Parcial-SAP\\SistemaDeLogistica\\Repositorio\\Implementations\\UsuarioRepository.cs",
+              "RelativeToolTip": "Repositorio\\Implementations\\UsuarioRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T16:04:01.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MovimientoHistorico.cs",
+              "DocumentMoniker": "C:\\Users\\nahue\\source\\repos\\Parcial-SAP\\SistemaDeLogistica\\DomainModel\\Entities\\MovimientoHistorico.cs",
+              "RelativeDocumentMoniker": "DomainModel\\Entities\\MovimientoHistorico.cs",
+              "ToolTip": "C:\\Users\\nahue\\source\\repos\\Parcial-SAP\\SistemaDeLogistica\\DomainModel\\Entities\\MovimientoHistorico.cs",
+              "RelativeToolTip": "DomainModel\\Entities\\MovimientoHistorico.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T15:56:32.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TransferenciasController.cs",
+              "DocumentMoniker": "C:\\Users\\nahue\\source\\repos\\Parcial-SAP\\SistemaDeLogistica\\SitioWeb\\Controllers\\TransferenciasController.cs",
+              "RelativeDocumentMoniker": "SitioWeb\\Controllers\\TransferenciasController.cs",
+              "ToolTip": "C:\\Users\\nahue\\source\\repos\\Parcial-SAP\\SistemaDeLogistica\\SitioWeb\\Controllers\\TransferenciasController.cs",
+              "RelativeToolTip": "SitioWeb\\Controllers\\TransferenciasController.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAYwD0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T15:46:45.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TransferenciaApiClient.cs",
+              "DocumentMoniker": "C:\\Users\\nahue\\source\\repos\\Parcial-SAP\\SistemaDeLogistica\\SitioWeb\\Services\\TransferenciaApiClient.cs",
+              "RelativeDocumentMoniker": "SitioWeb\\Services\\TransferenciaApiClient.cs",
+              "ToolTip": "C:\\Users\\nahue\\source\\repos\\Parcial-SAP\\SistemaDeLogistica\\SitioWeb\\Services\\TransferenciaApiClient.cs",
+              "RelativeToolTip": "SitioWeb\\Services\\TransferenciaApiClient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T15:45:00.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nahue\\source\\repos\\Parcial-SAP\\SistemaDeLogistica\\WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\nahue\\source\\repos\\Parcial-SAP\\SistemaDeLogistica\\WebApi\\Program.cs",
+              "RelativeToolTip": "WebApi\\Program.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACEAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T15:26:12.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nahue\\source\\repos\\Parcial-SAP\\SistemaDeLogistica\\SitioWeb\\Program.cs",
+              "RelativeDocumentMoniker": "SitioWeb\\Program.cs",
+              "ToolTip": "C:\\Users\\nahue\\source\\repos\\Parcial-SAP\\SistemaDeLogistica\\SitioWeb\\Program.cs",
+              "RelativeToolTip": "SitioWeb\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T15:25:58.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\nahue\\source\\repos\\Parcial-SAP\\SistemaDeLogistica\\WebApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "WebApi\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\nahue\\source\\repos\\Parcial-SAP\\SistemaDeLogistica\\WebApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "WebApi\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-20T15:24:35.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\nahue\\source\\repos\\Parcial-SAP\\SistemaDeLogistica\\WebApi\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "WebApi\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\nahue\\source\\repos\\Parcial-SAP\\SistemaDeLogistica\\WebApi\\appsettings.Development.json",
+              "RelativeToolTip": "WebApi\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-20T15:24:29.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\nahue\\source\\repos\\Parcial-SAP\\SistemaDeLogistica\\WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\nahue\\source\\repos\\Parcial-SAP\\SistemaDeLogistica\\WebApi\\appsettings.json",
+              "RelativeToolTip": "WebApi\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-20T15:24:23.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ProductosController.cs",
+              "DocumentMoniker": "C:\\Users\\nahue\\source\\repos\\Parcial-SAP\\SistemaDeLogistica\\WebApi\\Controllers\\ProductosController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\ProductosController.cs",
+              "ToolTip": "C:\\Users\\nahue\\source\\repos\\Parcial-SAP\\SistemaDeLogistica\\WebApi\\Controllers\\ProductosController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\ProductosController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T15:23:23.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TransferenciasController.cs",
+              "DocumentMoniker": "C:\\Users\\nahue\\source\\repos\\Parcial-SAP\\SistemaDeLogistica\\WebApi\\Controllers\\TransferenciasController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\TransferenciasController.cs",
+              "ToolTip": "C:\\Users\\nahue\\source\\repos\\Parcial-SAP\\SistemaDeLogistica\\WebApi\\Controllers\\TransferenciasController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\TransferenciasController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T15:17:27.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TransferenciaService.cs",
+              "DocumentMoniker": "C:\\Users\\nahue\\source\\repos\\Parcial-SAP\\SistemaDeLogistica\\BusinessLayer\\Services\\TransferenciaService.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Services\\TransferenciaService.cs",
+              "ToolTip": "C:\\Users\\nahue\\source\\repos\\Parcial-SAP\\SistemaDeLogistica\\BusinessLayer\\Services\\TransferenciaService.cs",
+              "RelativeToolTip": "BusinessLayer\\Services\\TransferenciaService.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAAAEYAAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T15:16:43.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ITransferenciaService.cs",
+              "DocumentMoniker": "C:\\Users\\nahue\\source\\repos\\Parcial-SAP\\SistemaDeLogistica\\BusinessLayer\\Interfaces\\ITransferenciaService.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Interfaces\\ITransferenciaService.cs",
+              "ToolTip": "C:\\Users\\nahue\\source\\repos\\Parcial-SAP\\SistemaDeLogistica\\BusinessLayer\\Interfaces\\ITransferenciaService.cs",
+              "RelativeToolTip": "BusinessLayer\\Interfaces\\ITransferenciaService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T15:16:30.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IMovimientoHistoricoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nahue\\source\\repos\\Parcial-SAP\\SistemaDeLogistica\\DomainModel\\Interfaces\\IMovimientoHistoricoRepository.cs",
+              "RelativeDocumentMoniker": "DomainModel\\Interfaces\\IMovimientoHistoricoRepository.cs",
+              "ToolTip": "C:\\Users\\nahue\\source\\repos\\Parcial-SAP\\SistemaDeLogistica\\DomainModel\\Interfaces\\IMovimientoHistoricoRepository.cs",
+              "RelativeToolTip": "DomainModel\\Interfaces\\IMovimientoHistoricoRepository.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T15:15:48.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\nahue\\source\\repos\\Parcial-SAP\\SistemaDeLogistica\\SitioWeb\\Views\\Transferencias\\Details.cshtml",
+              "RelativeDocumentMoniker": "SitioWeb\\Views\\Transferencias\\Details.cshtml",
+              "ToolTip": "C:\\Users\\nahue\\source\\repos\\Parcial-SAP\\SistemaDeLogistica\\SitioWeb\\Views\\Transferencias\\Details.cshtml",
+              "RelativeToolTip": "SitioWeb\\Views\\Transferencias\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T15:11:11.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\nahue\\source\\repos\\Parcial-SAP\\SistemaDeLogistica\\SitioWeb\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "SitioWeb\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\nahue\\source\\repos\\Parcial-SAP\\SistemaDeLogistica\\SitioWeb\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "SitioWeb\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAABgAAAAAAAAAAAAIwDIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-20T15:08:27.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\nahue\\source\\repos\\Parcial-SAP\\SistemaDeLogistica\\SitioWeb\\Views\\Transferencias\\Create.cshtml",
+              "RelativeDocumentMoniker": "SitioWeb\\Views\\Transferencias\\Create.cshtml",
+              "ToolTip": "C:\\Users\\nahue\\source\\repos\\Parcial-SAP\\SistemaDeLogistica\\SitioWeb\\Views\\Transferencias\\Create.cshtml",
+              "RelativeToolTip": "SitioWeb\\Views\\Transferencias\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T15:07:51.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\nahue\\source\\repos\\Parcial-SAP\\SistemaDeLogistica\\SitioWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SitioWeb\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\nahue\\source\\repos\\Parcial-SAP\\SistemaDeLogistica\\SitioWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SitioWeb\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAowB4AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T15:06:42.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\nahue\\source\\repos\\Parcial-SAP\\SistemaDeLogistica\\BusinessLayer\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\nahue\\source\\repos\\Parcial-SAP\\SistemaDeLogistica\\BusinessLayer\\DependencyInjection.cs",
+              "RelativeToolTip": "BusinessLayer\\DependencyInjection.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T15:05:06.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UbicacionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nahue\\source\\repos\\Parcial-SAP\\SistemaDeLogistica\\Repositorio\\Implementations\\UbicacionRepository.cs",
+              "RelativeDocumentMoniker": "Repositorio\\Implementations\\UbicacionRepository.cs",
+              "ToolTip": "C:\\Users\\nahue\\source\\repos\\Parcial-SAP\\SistemaDeLogistica\\Repositorio\\Implementations\\UbicacionRepository.cs",
+              "RelativeToolTip": "Repositorio\\Implementations\\UbicacionRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T15:02:48.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ProductoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nahue\\source\\repos\\Parcial-SAP\\SistemaDeLogistica\\Repositorio\\Implementations\\ProductoRepository.cs",
+              "RelativeDocumentMoniker": "Repositorio\\Implementations\\ProductoRepository.cs",
+              "ToolTip": "C:\\Users\\nahue\\source\\repos\\Parcial-SAP\\SistemaDeLogistica\\Repositorio\\Implementations\\ProductoRepository.cs",
+              "RelativeToolTip": "Repositorio\\Implementations\\ProductoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T15:02:23.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MovimientoHistoricoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nahue\\source\\repos\\Parcial-SAP\\SistemaDeLogistica\\Repositorio\\Implementations\\MovimientoHistoricoRepository.cs",
+              "RelativeDocumentMoniker": "Repositorio\\Implementations\\MovimientoHistoricoRepository.cs",
+              "ToolTip": "C:\\Users\\nahue\\source\\repos\\Parcial-SAP\\SistemaDeLogistica\\Repositorio\\Implementations\\MovimientoHistoricoRepository.cs",
+              "RelativeToolTip": "Repositorio\\Implementations\\MovimientoHistoricoRepository.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAqwB8AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T15:02:14.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Ubicacion.cs",
+              "DocumentMoniker": "C:\\Users\\nahue\\source\\repos\\Parcial-SAP\\SistemaDeLogistica\\DomainModel\\Entities\\Ubicacion.cs",
+              "RelativeDocumentMoniker": "DomainModel\\Entities\\Ubicacion.cs",
+              "ToolTip": "C:\\Users\\nahue\\source\\repos\\Parcial-SAP\\SistemaDeLogistica\\DomainModel\\Entities\\Ubicacion.cs",
+              "RelativeToolTip": "DomainModel\\Entities\\Ubicacion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T14:59:52.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Direccion.cs",
+              "DocumentMoniker": "C:\\Users\\nahue\\source\\repos\\Parcial-SAP\\SistemaDeLogistica\\DomainModel\\ValueObjects\\Direccion.cs",
+              "RelativeDocumentMoniker": "DomainModel\\ValueObjects\\Direccion.cs",
+              "ToolTip": "C:\\Users\\nahue\\source\\repos\\Parcial-SAP\\SistemaDeLogistica\\DomainModel\\ValueObjects\\Direccion.cs",
+              "RelativeToolTip": "DomainModel\\ValueObjects\\Direccion.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T14:59:39.821Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

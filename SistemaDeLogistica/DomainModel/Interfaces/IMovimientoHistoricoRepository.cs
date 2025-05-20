@@ -9,19 +9,10 @@ namespace DomainModel.Interfaces
 {
     public interface IMovimientoHistoricoRepository
     {
-        /// <summary>
-        /// Obtiene un movimiento histórico por su identificador.
-        /// </summary>
         MovimientoHistorico GetById(int movimientoId);
-
-        /// <summary>
-        /// Obtiene todos los movimientos que tienen como destino la ubicación indicada.
-        /// </summary>
         IEnumerable<MovimientoHistorico> GetByDestino(int ubicacionId);
-
-        /// <summary>
-        /// Registra un nuevo movimiento histórico.
-        /// </summary>
+        IEnumerable<MovimientoHistorico> GetAll();   // ← nuevo
         void Add(MovimientoHistorico movimiento);
+
     }
 }

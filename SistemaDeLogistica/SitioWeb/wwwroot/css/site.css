@@ -17,6 +17,34 @@ html {
   min-height: 100%;
 }
 
+/* site.css */
 body {
-  margin-bottom: 60px;
+    background-color: #f8f9fa;
+}
+
+header nav {
+    background-color: #343a40;
+    padding: .5rem 1rem;
+}
+
+    header nav a {
+        color: #fff;
+        margin-right: 1rem;
+        text-decoration: none;
+    }
+
+        header nav a:hover {
+            color: #adb5bd;
+        }
+
+.container {
+    padding-top: 2rem;
+    max-width: 960px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    font-size: .9rem;
+    color: #6c757d;
 }

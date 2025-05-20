@@ -14,5 +14,8 @@ namespace BusinessLayer.Interfaces
         MovimientoHistorico RealizarTransferencia(TransferRequest request);
         MovimientoHistorico GetMovimiento(int id);
         // otros métodos según los informes que necesites
+
+        IEnumerable<MovimientoHistorico> GetAllMovimientos();
+
     }
 }

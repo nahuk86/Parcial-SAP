@@ -1,8 +1,43 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@* Views/Transferencias/Details.cshtml *@
+@using DomainModel.Entities
+@model MovimientoHistorico
+
+@{
+    ViewData["Title"] = "Detalle de Transferencia";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="card mt-4">
+    <div class="card-header">
+        Transferencia #@Model.MovimientoHistoricoId
+    </div>
+    <div class="card-body">
+        <p><strong>Fecha:</strong> @Model.Fecha.ToString("g")</p>
+        <p><strong>Usuario:</strong> @Model.Usuario.Nombre</p>
+        <p><strong>Origen:</strong> @Model.Origen.Nombre</p>
+        <p><strong>Destino:</strong> @Model.Destino.Nombre</p>
+    </div>
+</div>
+
+<h4 class="mt-4">Detalles</h4>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Producto</th>
+            <th>Cantidad</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var d in Model.Detalles)
+        {
+            <tr>
+                <td>@d.Producto.Nombre</td>
+                <td>@d.Cantidad</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div class="mt-3">
+    <a asp-action="Create" class="btn btn-secondary">Nueva Transferencia</a>
+    <a asp-controller="Home" asp-action="Index" class="btn btn-link">Volver al inicio</a>
 </div>

@@ -22,6 +22,20 @@ builder.Services
          // (Opcional) JSON más legible
          opts.JsonSerializerOptions.WriteIndented = true;
      });
+
+builder.Services.AddCors(opts =>
+{
+    opts.AddDefaultPolicy(policy =>
+    {
+        policy
+          .WithOrigins(
+             "http://127.0.0.1:5500",
+             "https://localhost:32771"  // si también llamas desde el swagger UI
+          )   // ajusta al puerto de tu front
+          .AllowAnyHeader()
+          .AllowAnyMethod();
+    });
+});
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -72,6 +86,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseRouting();
+app.UseCors();
 app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();

@@ -21,7 +21,6 @@ namespace BusinessLayer
             services.AddSingleton<IUsuarioRepository, UsuarioRepository>();
             services.AddSingleton<IMovimientoHistoricoRepository, MovimientoHistoricoRepository>();
 
-            // Servicios de aplicación siguen scoped
             services.AddScoped<IUbicacionService, UbicacionService>();
             services.AddScoped<ITransferenciaService, TransferenciaService>();
 

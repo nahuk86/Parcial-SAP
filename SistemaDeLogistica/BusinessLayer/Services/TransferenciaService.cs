@@ -30,6 +30,10 @@ namespace BusinessLayer.Services
         }
 
         // Ahora coincide con la interfaz
+
+        public IEnumerable<MovimientoHistorico> GetAllMovimientos()
+    => _movRepo.GetAll();
+
         public MovimientoHistorico RealizarTransferencia(TransferRequest request)
         {
             // 1. Obtener entidades

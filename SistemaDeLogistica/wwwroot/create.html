@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Nueva Transferencia</title>
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Nueva Transferencia</h1>
+    <nav>
+      <a href="index.html">Inicio</a>
+    </nav>
+  </header>
+  <main>
+    <form id="transfer-form">
+      <div class="field">
+        <label for="origen">Origen</label>
+        <select id="origen" required></select>
+      </div>
+      <div class="field">
+        <label for="destino">Destino</label>
+        <select id="destino" required></select>
+      </div>
+      <div class="field">
+        <label for="usuario">Usuario</label>
+        <select id="usuario" required></select>
+      </div>
+
+      <h3>Detalles</h3>
+      <table id="detalles">
+        <thead><tr><th>Producto</th><th>Cantidad</th><th></th></tr></thead>
+        <tbody>
+          <tr>
+            <td><select class="producto"></select></td>
+            <td><input type="number" class="cantidad" min="1" value="1"></td>
+            <td><button type="button" class="remove">–</button></td>
+          </tr>
+        </tbody>
+      </table>
+      <button type="button" id="add-detalle">Agregar detalle</button>
+      <button type="submit">Enviar</button>
+    </form>
+    <div id="message"></div>
+  </main>
+  <script src="js/app.js"></script>
+</body>
+</html>
