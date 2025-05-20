@@ -17,5 +17,14 @@ namespace BusinessLayer.Interfaces
 
         IEnumerable<MovimientoHistorico> GetAllMovimientos();
 
+        // Informe a) Movimientos por destino, ordenados por fecha descendente
+        IEnumerable<MovimientoHistorico> GetMovimientosPorDestino(int destinoId);
+
+        // Informe b) Movimientos en un día con más de N operaciones por destino, orden ascendente
+        IEnumerable<MovimientoHistorico> GetMovimientosDestinosConMasDe(int minOperaciones, DateTime día);
+
+        // Informe c) Primeros X movimientos de una tienda en un rango de fechas
+        IEnumerable<MovimientoHistorico> GetMovimientosTiendaRango(int tiendaId, DateTime desde, DateTime hasta, int maxResults);
+
     }
 }

@@ -9,7 +9,7 @@ namespace DomainModel.Entities
     public class MovimientoHistorico
     {
         public int MovimientoHistoricoId { get; set; }
-        public DateTime Fecha { get; private set; }
+        public DateTime Fecha { get; set; }
         public Usuario Usuario { get; private set; }
         public Ubicacion Origen { get; private set; }
         public Ubicacion Destino { get; private set; }

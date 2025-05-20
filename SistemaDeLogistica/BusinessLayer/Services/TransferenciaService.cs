@@ -71,7 +71,40 @@ namespace BusinessLayer.Services
             var movimiento = new MovimientoHistorico(0, usuario, origen, destino, detallesDominio);
             _movRepo.Add(movimiento);
             return movimiento;
+
         }
+
+        public IEnumerable<MovimientoHistorico> GetMovimientosPorDestino(int destinoId)
+        {
+            return _movRepo
+                .GetByDestino(destinoId)
+                .OrderByDescending(m => m.Fecha);
+        }
+
+        public IEnumerable<MovimientoHistorico> GetMovimientosDestinosConMasDe(int minOperaciones, DateTime día)
+        {
+            var fecha = día.Date;
+            // agrupo por destino, filtro grupos con count > minOperaciones
+            var destinos = _movRepo.GetAll()
+                .Where(m => m.Fecha.Date == fecha)
+                .GroupBy(m => m.Destino.UbicacionId)
+                .Where(g => g.Count() > minOperaciones)
+                .SelectMany(g => g);
+
+            return destinos
+                .OrderBy(m => m.Fecha);
+        }
+
+        public IEnumerable<MovimientoHistorico> GetMovimientosTiendaRango(int tiendaId, DateTime desde, DateTime hasta, int maxResults)
+        {
+            return _movRepo.GetAll()
+                .Where(m => m.Destino.UbicacionId == tiendaId
+                         && m.Fecha >= desde
+                         && m.Fecha <= hasta)
+                .OrderBy(m => m.Fecha)
+                .Take(maxResults);
+        }
+
 
         public MovimientoHistorico GetMovimiento(int id)
             => _movRepo.GetById(id)
