@@ -195,8 +195,7 @@
               "RelativeToolTip": "DomainModel\\Entities\\MovimientoHistorico.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T15:56:32.46Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T15:56:32.46Z"
             },
             {
               "$type": "Document",
@@ -232,8 +231,7 @@
               "RelativeToolTip": "WebApi\\Program.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T15:26:12.769Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T15:26:12.769Z"
             },
             {
               "$type": "Document",
@@ -317,8 +315,7 @@
               "RelativeToolTip": "BusinessLayer\\Services\\TransferenciaService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAGkAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T15:16:43.119Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T15:16:43.119Z"
             },
             {
               "$type": "Document",
@@ -330,8 +327,7 @@
               "RelativeToolTip": "BusinessLayer\\Interfaces\\ITransferenciaService.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAxwB4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T15:16:30.187Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T15:16:30.187Z"
             },
             {
               "$type": "Document",
@@ -343,8 +339,7 @@
               "RelativeToolTip": "DomainModel\\Interfaces\\IMovimientoHistoricoRepository.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T15:15:48.151Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T15:15:48.151Z"
             },
             {
               "$type": "Document",
