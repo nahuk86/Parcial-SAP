@@ -30,7 +30,8 @@ builder.Services.AddCors(opts =>
         policy
           .WithOrigins(
              "http://127.0.0.1:5500",
-             "https://localhost:32771"  // si también llamas desde el swagger UI
+             "https://localhost:32771",
+             "https://nahuk86.github.io"// si también llamas desde el swagger UI
           )   // ajusta al puerto de tu front
           .AllowAnyHeader()
           .AllowAnyMethod();

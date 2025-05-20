@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SitioWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9bc368a259bfefb5eaa4a3364c05a8388cd6127b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7e1dfc6c4bd1964c9c9a6de90805c026833bfd42")]
 [assembly: System.Reflection.AssemblyProductAttribute("SitioWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SitioWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
