@@ -1,4 +1,4 @@
-const API_BASE = 'https://localhost:32771/api';
+const API_BASE = 'https://localhost:32769/api';
 
 async function fetchJson(url) {
   const res = await fetch(url);
